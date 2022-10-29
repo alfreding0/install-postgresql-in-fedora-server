@@ -103,9 +103,12 @@ Tener en cuenta que la ruta del archivo, es según el resultado del paso anterio
 `sudo vim /var/lib/pgsql/data/pg_hba.conf`
 
 Aproximadamente entre la línea 80 y 90, que están casi al final, encontrar algo similar a lo siguiente:
+
 Antes
 ![Antes](/screenshots/pg_hba.conf-antes.jpg)
-*- - - - - - - - - - - - -*
+
+-----------------------
+
 Después
 ![Después](/screenshots/pg_hba.conf-despues.jpg)
 
