@@ -71,11 +71,15 @@ postgres=#*
 
 #### 8. Hasta el paso anterior significa que el servidor de PostgreSQL está listo. Cambiemos la contraseña del super usuario de PostgreSQL "postgres"
 Estando dentro del cliente de consola de postgresql (psql), escribir el comando \password, presionar enter e inmediatamente se mostrará la opción para ingresar la nueva contraseña, algo similar a lo siguiente:
+
 postgres=# `\password`
 
 *Enter new password for user "postgres":
+
 Enter it again:
-postgres=#*
+
+postgres=#
+*
 
 ------------
 
