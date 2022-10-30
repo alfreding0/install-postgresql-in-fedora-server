@@ -19,9 +19,13 @@ Se actualizarán todos los paquetes y aplicaciones del sistema operativo. (Esper
 `sudo -u postgres psql`
 
 ***Se mostrará un error como el siguiente:***
-*could not change directory to "/root": Permission denied
+
+*could not change directory to "/home/alfreding0": Permission denied
+
 psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+
 Is the server running locally and accepting connections on that socket?*
+
 **SI EN CASO NO TE SALIÓ ESTE ERROR, PUEDES PASAR DIRECTAMENTE AL [[PASO Nº7]][7].**
 
 #### 4. Revisamos el estado del servicio de postgresql
